@@ -1,0 +1,11 @@
+Challenges Encountered
+
+One challenge I encountered was understanding how custom hooks differ from regular functions. At first, I was confused about why useEffect and useState could only be used inside hooks or components. After reviewing the React Hook rules and testing the code, I better understood how hooks manage component lifecycle and state.
+
+Another challenge was understanding Higher-Order Components (HOCs). It initially felt confusing because a component was returning another component. After experimenting with the withLoading example, I understood that HOCs are useful for sharing reusable logic between components.
+
+The render props pattern was also slightly difficult at first because it uses a function as a prop. After implementing MouseTracker, I realized that render props allow flexible rendering behavior while keeping logic reusable.
+
+The clearest part of the lab was using the custom hook useFetch because it closely resembled real-world API fetching examples.
+
+The least clear part was the HOC explanation because it involved multiple layers of components. Additional diagrams or flow examples could make this section easier to understand.
