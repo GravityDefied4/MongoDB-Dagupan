@@ -10,7 +10,7 @@ function App() {
   const fetchStudents = async () => {
     try {
       const response = await axios.get(
-        'http://localhost:5000/students'
+        'http://localhost:8000/students'
       );
 
       setStudents(response.data);
@@ -28,7 +28,7 @@ function App() {
 
     try {
       await axios.post(
-        'http://localhost:5000/students',
+        'http://localhost:8000/students',
         {
           name,
           course
