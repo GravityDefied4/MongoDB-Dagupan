@@ -192,7 +192,6 @@ async function runAggregation() {
         }
       }
     ]);
-
     console.log(pipelineResult);
   } catch (error) {
     console.log(error);
