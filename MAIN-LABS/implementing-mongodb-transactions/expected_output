@@ -1,0 +1,20 @@
+Pinged your deployment. You have successfully connected to MongoDB!
+
+Initial Account Data:
+{'_id': 1, 'name': 'Alice', 'balance': 100}
+{'_id': 2, 'name': 'Bob', 'balance': 50}
+
+=== Successful Fund Transfer ===
+Transaction committed. Funds transferred successfully.
+
+Balances After Successful Transfer:
+Alice's balance: 70
+Bob's balance: 80
+
+=== Failed Fund Transfer (Rollback Demo) ===
+Transaction aborted. Funds transfer failed.
+Simulated error during transaction
+
+Final Account Balances:
+Alice's balance: 70
+Bob's balance: 80
